@@ -1,4 +1,5 @@
 FROM openjdk:8-jdk-alpine
+MAINTAINER fufu@caicloud.io
 VOLUME /tmp
 ADD target/hello-docker-0.0.1-SNAPSHOT.jar hello-docker-app.jar
 ENV JAVA_OPTS=""
